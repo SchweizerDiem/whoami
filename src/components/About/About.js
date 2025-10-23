@@ -35,7 +35,14 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a
+            href={
+              // ensure the resume comes from the public/ folder so it's served correctly
+              resume.startsWith('http') ? resume : `${process.env.PUBLIC_URL}${resume}`
+            }
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <span type='button' className='btn btn--outline'>
               Resume
             </span>

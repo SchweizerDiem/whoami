@@ -24,7 +24,6 @@ const App = () => {
       </main>
 
       <ScrollToTop />
-      <Footer />
     </div>
   )
 }

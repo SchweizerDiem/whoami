@@ -11,8 +11,9 @@ const about = {
   picture: 'profile.png',
 
   description:
-    "I am passionate about creating new solutions and colaborating with as many people as I can. I'm currently studying Computer Science and Engineering @ ISPGAYA (Porto, Portugal) and participating in a few BIP's (Blended Intensive Program) ᕙ(`▿´)ᕗ, tackling different problems with people from diverse fields.",
-  resume: 'resume.pdf',
+    "I'm a Computer Science and Engineering student at ISPGAYA (Porto, Portugal), and I truly believe the best work happens when people team up. I'm always energized by creating new solutions and connecting with people from different walks of life. Right now, I'm deep into several Blended Intensive Programs (BIPs)—it’s been fantastic tackling challenging problems side-by-side with peers who bring completely different perspectives to the table.",
+  // resume is stored inside public/images/
+  resume: '/images/resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/gabriel-rocha-1b93a0348/',
     github: 'https://github.com/SchweizerDiem',
@@ -28,7 +29,7 @@ const projects = [
       'A full-stack web application designed to shorten URL. As well as manage users that use the application',
     stack: ['Java', 'PostgreSQL', 'SpringBoot'],
     sourceCode: 'https://github.com/url-shortener',
-    image: 'car-vehicle.png',
+    image: 'car-vehicle.svg',
   },
   {
     name: 'Predictive model through intrusion detection system in computer networks',
@@ -36,7 +37,7 @@ const projects = [
       '(Coming) COIL project made in colaboration with the Brazillian student team from Fatec Ipiranga',
     stack: [' '],
     sourceCode: 'https://github.com',
-    image: 'predict.png',
+    image: 'predict.svg',
   },
   {
     name: 'Multi Agent Traffic System',
@@ -44,7 +45,7 @@ const projects = [
       'A Multi Agent system that simulates traffic, control traffic lights in order to minimize waiting time according to traffic conditions and sudden disaster',
     stack: ['Python', 'Spade', 'Sumo'],
     sourceCode: 'https://github.com',
-    image: 'agents.png'
+    image: 'agents.svg'
   },
   {
     name: 'Independent Heart',
@@ -52,7 +53,7 @@ const projects = [
       "A drag n' drop video game designed to teach children about sustainable energy (҂◡̀_◡́)ᕤ  BIP Project",
     stack: ['GML'],
     sourceCode: 'https://github.com',
-    // image: 'agents.png'
+    image: 'joystick-light.svg'
   },
 ]
 
